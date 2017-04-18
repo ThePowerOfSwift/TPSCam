@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0BE6AEA1EA6A2F400DEE627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BE6AE81EA6A2F400DEE627 /* Main.storyboard */; };
+		F0BE6AEC1EA6A2F400DEE627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0BE6AEB1EA6A2F400DEE627 /* Assets.xcassets */; };
+		F0BE6AEF1EA6A2F400DEE627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BE6AED1EA6A2F400DEE627 /* LaunchScreen.storyboard */; };
+		F0BE6AFA1EA6A2F400DEE627 /* TPSCamDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6AF91EA6A2F400DEE627 /* TPSCamDemoTests.swift */; };
+		F0BE6B051EA6A2F400DEE627 /* TPSCamDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B041EA6A2F400DEE627 /* TPSCamDemoUITests.swift */; };
+		F0BE6B151EA6A32D00DEE627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B131EA6A32D00DEE627 /* AppDelegate.swift */; };
+		F0BE6B191EA6A35800DEE627 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B181EA6A35800DEE627 /* CameraViewController.swift */; };
+		F0BE6B201EA6A37600DEE627 /* UIKit Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B1F1EA6A37600DEE627 /* UIKit Extensions.swift */; };
+		F0BE6B221EA6A37D00DEE627 /* Downloadeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B211EA6A37D00DEE627 /* Downloadeable.swift */; };
+		F0BE6B241EA6A38200DEE627 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B231EA6A38200DEE627 /* AnimationManager.swift */; };
+		F0BE6B261EA6A38800DEE627 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B251EA6A38800DEE627 /* Item.swift */; };
+		F0BE6B281EA6A39000DEE627 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B271EA6A39000DEE627 /* CustomView.swift */; };
+		F0BE6B371EA6A3E200DEE627 /* TPSCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BE6B2E1EA6A3DC00DEE627 /* TPSCam.framework */; };
+		F0BE6B3E1EA6A3E600DEE627 /* TPSCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B3D1EA6A3E600DEE627 /* TPSCamTests.swift */; };
+		F0BE6B401EA6A3E700DEE627 /* TPSCam.h in Headers */ = {isa = PBXBuildFile; fileRef = F0BE6B301EA6A3DD00DEE627 /* TPSCam.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0BE6B431EA6A3E700DEE627 /* TPSCam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BE6B2E1EA6A3DC00DEE627 /* TPSCam.framework */; };
+		F0BE6B441EA6A3E700DEE627 /* TPSCam.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0BE6B2E1EA6A3DC00DEE627 /* TPSCam.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F0BE6B4D1EA6A43100DEE627 /* TPSCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE6B4C1EA6A43100DEE627 /* TPSCamera.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0BE6AF61EA6A2F400DEE627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BE6AD91EA6A2F400DEE627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BE6AE01EA6A2F400DEE627;
+			remoteInfo = TPSCamDemo;
+		};
+		F0BE6B011EA6A2F400DEE627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BE6AD91EA6A2F400DEE627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BE6AE01EA6A2F400DEE627;
+			remoteInfo = TPSCamDemo;
+		};
+		F0BE6B381EA6A3E300DEE627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BE6AD91EA6A2F400DEE627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BE6B2D1EA6A3DC00DEE627;
+			remoteInfo = TPSCam;
+		};
+		F0BE6B3A1EA6A3E300DEE627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BE6AD91EA6A2F400DEE627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BE6AE01EA6A2F400DEE627;
+			remoteInfo = TPSCamDemo;
+		};
+		F0BE6B411EA6A3E700DEE627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0BE6AD91EA6A2F400DEE627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0BE6B2D1EA6A3DC00DEE627;
+			remoteInfo = TPSCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0BE6B481EA6A3E700DEE627 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0BE6B441EA6A3E700DEE627 /* TPSCam.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F0BE6AE11EA6A2F400DEE627 /* TPSCamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPSCamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BE6AE91EA6A2F400DEE627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0BE6AEB1EA6A2F400DEE627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0BE6AEE1EA6A2F400DEE627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0BE6AF51EA6A2F400DEE627 /* TPSCamDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPSCamDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BE6AF91EA6A2F400DEE627 /* TPSCamDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPSCamDemoTests.swift; sourceTree = "<group>"; };
+		F0BE6AFB1EA6A2F400DEE627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BE6B001EA6A2F400DEE627 /* TPSCamDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPSCamDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BE6B041EA6A2F400DEE627 /* TPSCamDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPSCamDemoUITests.swift; sourceTree = "<group>"; };
+		F0BE6B061EA6A2F400DEE627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BE6B131EA6A32D00DEE627 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Supporting Files/AppDelegate.swift"; sourceTree = "<group>"; };
+		F0BE6B141EA6A32D00DEE627 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		F0BE6B181EA6A35800DEE627 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		F0BE6B1F1EA6A37600DEE627 /* UIKit Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIKit Extensions.swift"; path = "Util/UIKit Extensions.swift"; sourceTree = "<group>"; };
+		F0BE6B211EA6A37D00DEE627 /* Downloadeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Downloadeable.swift; path = Network/Downloadeable.swift; sourceTree = "<group>"; };
+		F0BE6B231EA6A38200DEE627 /* AnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimationManager.swift; path = Helper/AnimationManager.swift; sourceTree = "<group>"; };
+		F0BE6B251EA6A38800DEE627 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Model/Item.swift; sourceTree = "<group>"; };
+		F0BE6B271EA6A39000DEE627 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = View/CustomView.swift; sourceTree = "<group>"; };
+		F0BE6B2E1EA6A3DC00DEE627 /* TPSCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPSCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BE6B301EA6A3DD00DEE627 /* TPSCam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPSCam.h; sourceTree = "<group>"; };
+		F0BE6B311EA6A3DD00DEE627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BE6B361EA6A3E200DEE627 /* TPSCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TPSCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BE6B3D1EA6A3E600DEE627 /* TPSCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPSCamTests.swift; sourceTree = "<group>"; };
+		F0BE6B3F1EA6A3E700DEE627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BE6B4C1EA6A43100DEE627 /* TPSCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TPSCamera.swift; path = Model/TPSCamera.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0BE6ADE1EA6A2F400DEE627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B431EA6A3E700DEE627 /* TPSCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6AF21EA6A2F400DEE627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6AFD1EA6A2F400DEE627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6B2A1EA6A3DC00DEE627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6B331EA6A3E200DEE627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B371EA6A3E200DEE627 /* TPSCam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0BE6AD81EA6A2F400DEE627 = {
+			isa = PBXGroup;
+			children = (
+				F0BE6AE31EA6A2F400DEE627 /* TPSCamDemo */,
+				F0BE6AF81EA6A2F400DEE627 /* TPSCamDemoTests */,
+				F0BE6B031EA6A2F400DEE627 /* TPSCamDemoUITests */,
+				F0BE6B2F1EA6A3DC00DEE627 /* TPSCam */,
+				F0BE6B3C1EA6A3E300DEE627 /* TPSCamTests */,
+				F0BE6AE21EA6A2F400DEE627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0BE6AE21EA6A2F400DEE627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6AE11EA6A2F400DEE627 /* TPSCamDemo.app */,
+				F0BE6AF51EA6A2F400DEE627 /* TPSCamDemoTests.xctest */,
+				F0BE6B001EA6A2F400DEE627 /* TPSCamDemoUITests.xctest */,
+				F0BE6B2E1EA6A3DC00DEE627 /* TPSCam.framework */,
+				F0BE6B361EA6A3E200DEE627 /* TPSCamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0BE6AE31EA6A2F400DEE627 /* TPSCamDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B1E1EA6A36F00DEE627 /* Util */,
+				F0BE6B1D1EA6A36B00DEE627 /* Network */,
+				F0BE6B1C1EA6A36700DEE627 /* Helper */,
+				F0BE6B1B1EA6A36300DEE627 /* Model */,
+				F0BE6B1A1EA6A36000DEE627 /* View */,
+				F0BE6B171EA6A34500DEE627 /* ViewController */,
+				F0BE6B121EA6A31E00DEE627 /* Supporting Files */,
+			);
+			path = TPSCamDemo;
+			sourceTree = "<group>";
+		};
+		F0BE6AF81EA6A2F400DEE627 /* TPSCamDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6AF91EA6A2F400DEE627 /* TPSCamDemoTests.swift */,
+				F0BE6AFB1EA6A2F400DEE627 /* Info.plist */,
+			);
+			path = TPSCamDemoTests;
+			sourceTree = "<group>";
+		};
+		F0BE6B031EA6A2F400DEE627 /* TPSCamDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B041EA6A2F400DEE627 /* TPSCamDemoUITests.swift */,
+				F0BE6B061EA6A2F400DEE627 /* Info.plist */,
+			);
+			path = TPSCamDemoUITests;
+			sourceTree = "<group>";
+		};
+		F0BE6B121EA6A31E00DEE627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B131EA6A32D00DEE627 /* AppDelegate.swift */,
+				F0BE6AE81EA6A2F400DEE627 /* Main.storyboard */,
+				F0BE6AEB1EA6A2F400DEE627 /* Assets.xcassets */,
+				F0BE6AED1EA6A2F400DEE627 /* LaunchScreen.storyboard */,
+				F0BE6B141EA6A32D00DEE627 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0BE6B171EA6A34500DEE627 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B181EA6A35800DEE627 /* CameraViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F0BE6B1A1EA6A36000DEE627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B271EA6A39000DEE627 /* CustomView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F0BE6B1B1EA6A36300DEE627 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B251EA6A38800DEE627 /* Item.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0BE6B1C1EA6A36700DEE627 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B231EA6A38200DEE627 /* AnimationManager.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		F0BE6B1D1EA6A36B00DEE627 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B211EA6A37D00DEE627 /* Downloadeable.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F0BE6B1E1EA6A36F00DEE627 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B1F1EA6A37600DEE627 /* UIKit Extensions.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		F0BE6B2F1EA6A3DC00DEE627 /* TPSCam */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B501EA6A4C100DEE627 /* View */,
+				F0BE6B4E1EA6A4B000DEE627 /* Model */,
+				F0BE6B4F1EA6A4B900DEE627 /* Supporting Files */,
+			);
+			path = TPSCam;
+			sourceTree = "<group>";
+		};
+		F0BE6B3C1EA6A3E300DEE627 /* TPSCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B3D1EA6A3E600DEE627 /* TPSCamTests.swift */,
+				F0BE6B3F1EA6A3E700DEE627 /* Info.plist */,
+			);
+			path = TPSCamTests;
+			sourceTree = "<group>";
+		};
+		F0BE6B4E1EA6A4B000DEE627 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B4C1EA6A43100DEE627 /* TPSCamera.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0BE6B4F1EA6A4B900DEE627 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0BE6B301EA6A3DD00DEE627 /* TPSCam.h */,
+				F0BE6B311EA6A3DD00DEE627 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0BE6B501EA6A4C100DEE627 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F0BE6B2B1EA6A3DC00DEE627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B401EA6A3E700DEE627 /* TPSCam.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F0BE6AE01EA6A2F400DEE627 /* TPSCamDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE6B091EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemo" */;
+			buildPhases = (
+				F0BE6ADD1EA6A2F400DEE627 /* Sources */,
+				F0BE6ADE1EA6A2F400DEE627 /* Frameworks */,
+				F0BE6ADF1EA6A2F400DEE627 /* Resources */,
+				F0BE6B481EA6A3E700DEE627 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BE6B421EA6A3E700DEE627 /* PBXTargetDependency */,
+			);
+			name = TPSCamDemo;
+			productName = TPSCamDemo;
+			productReference = F0BE6AE11EA6A2F400DEE627 /* TPSCamDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0BE6AF41EA6A2F400DEE627 /* TPSCamDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE6B0C1EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemoTests" */;
+			buildPhases = (
+				F0BE6AF11EA6A2F400DEE627 /* Sources */,
+				F0BE6AF21EA6A2F400DEE627 /* Frameworks */,
+				F0BE6AF31EA6A2F400DEE627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BE6AF71EA6A2F400DEE627 /* PBXTargetDependency */,
+			);
+			name = TPSCamDemoTests;
+			productName = TPSCamDemoTests;
+			productReference = F0BE6AF51EA6A2F400DEE627 /* TPSCamDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0BE6AFF1EA6A2F400DEE627 /* TPSCamDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE6B0F1EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemoUITests" */;
+			buildPhases = (
+				F0BE6AFC1EA6A2F400DEE627 /* Sources */,
+				F0BE6AFD1EA6A2F400DEE627 /* Frameworks */,
+				F0BE6AFE1EA6A2F400DEE627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BE6B021EA6A2F400DEE627 /* PBXTargetDependency */,
+			);
+			name = TPSCamDemoUITests;
+			productName = TPSCamDemoUITests;
+			productReference = F0BE6B001EA6A2F400DEE627 /* TPSCamDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F0BE6B2D1EA6A3DC00DEE627 /* TPSCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE6B451EA6A3E700DEE627 /* Build configuration list for PBXNativeTarget "TPSCam" */;
+			buildPhases = (
+				F0BE6B291EA6A3DC00DEE627 /* Sources */,
+				F0BE6B2A1EA6A3DC00DEE627 /* Frameworks */,
+				F0BE6B2B1EA6A3DC00DEE627 /* Headers */,
+				F0BE6B2C1EA6A3DC00DEE627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPSCam;
+			productName = TPSCam;
+			productReference = F0BE6B2E1EA6A3DC00DEE627 /* TPSCam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0BE6B351EA6A3E200DEE627 /* TPSCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0BE6B491EA6A3E700DEE627 /* Build configuration list for PBXNativeTarget "TPSCamTests" */;
+			buildPhases = (
+				F0BE6B321EA6A3E200DEE627 /* Sources */,
+				F0BE6B331EA6A3E200DEE627 /* Frameworks */,
+				F0BE6B341EA6A3E200DEE627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0BE6B391EA6A3E300DEE627 /* PBXTargetDependency */,
+				F0BE6B3B1EA6A3E300DEE627 /* PBXTargetDependency */,
+			);
+			name = TPSCamTests;
+			productName = TPSCamTests;
+			productReference = F0BE6B361EA6A3E200DEE627 /* TPSCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0BE6AD91EA6A2F400DEE627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "The Power of Swift.";
+				TargetAttributes = {
+					F0BE6AE01EA6A2F400DEE627 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U82TG7992X;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					F0BE6AF41EA6A2F400DEE627 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U82TG7992X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0BE6AE01EA6A2F400DEE627;
+					};
+					F0BE6AFF1EA6A2F400DEE627 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U82TG7992X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0BE6AE01EA6A2F400DEE627;
+					};
+					F0BE6B2D1EA6A3DC00DEE627 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U82TG7992X;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					F0BE6B351EA6A3E200DEE627 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = U82TG7992X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0BE6AE01EA6A2F400DEE627;
+					};
+				};
+			};
+			buildConfigurationList = F0BE6ADC1EA6A2F400DEE627 /* Build configuration list for PBXProject "TPSCamDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0BE6AD81EA6A2F400DEE627;
+			productRefGroup = F0BE6AE21EA6A2F400DEE627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0BE6AE01EA6A2F400DEE627 /* TPSCamDemo */,
+				F0BE6AF41EA6A2F400DEE627 /* TPSCamDemoTests */,
+				F0BE6AFF1EA6A2F400DEE627 /* TPSCamDemoUITests */,
+				F0BE6B2D1EA6A3DC00DEE627 /* TPSCam */,
+				F0BE6B351EA6A3E200DEE627 /* TPSCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0BE6ADF1EA6A2F400DEE627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6AEF1EA6A2F400DEE627 /* LaunchScreen.storyboard in Resources */,
+				F0BE6AEC1EA6A2F400DEE627 /* Assets.xcassets in Resources */,
+				F0BE6AEA1EA6A2F400DEE627 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6AF31EA6A2F400DEE627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6AFE1EA6A2F400DEE627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6B2C1EA6A3DC00DEE627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6B341EA6A3E200DEE627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0BE6ADD1EA6A2F400DEE627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B151EA6A32D00DEE627 /* AppDelegate.swift in Sources */,
+				F0BE6B191EA6A35800DEE627 /* CameraViewController.swift in Sources */,
+				F0BE6B201EA6A37600DEE627 /* UIKit Extensions.swift in Sources */,
+				F0BE6B281EA6A39000DEE627 /* CustomView.swift in Sources */,
+				F0BE6B221EA6A37D00DEE627 /* Downloadeable.swift in Sources */,
+				F0BE6B261EA6A38800DEE627 /* Item.swift in Sources */,
+				F0BE6B241EA6A38200DEE627 /* AnimationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6AF11EA6A2F400DEE627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6AFA1EA6A2F400DEE627 /* TPSCamDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6AFC1EA6A2F400DEE627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B051EA6A2F400DEE627 /* TPSCamDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6B291EA6A3DC00DEE627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B4D1EA6A43100DEE627 /* TPSCamera.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0BE6B321EA6A3E200DEE627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0BE6B3E1EA6A3E600DEE627 /* TPSCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0BE6AF71EA6A2F400DEE627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BE6AE01EA6A2F400DEE627 /* TPSCamDemo */;
+			targetProxy = F0BE6AF61EA6A2F400DEE627 /* PBXContainerItemProxy */;
+		};
+		F0BE6B021EA6A2F400DEE627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BE6AE01EA6A2F400DEE627 /* TPSCamDemo */;
+			targetProxy = F0BE6B011EA6A2F400DEE627 /* PBXContainerItemProxy */;
+		};
+		F0BE6B391EA6A3E300DEE627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BE6B2D1EA6A3DC00DEE627 /* TPSCam */;
+			targetProxy = F0BE6B381EA6A3E300DEE627 /* PBXContainerItemProxy */;
+		};
+		F0BE6B3B1EA6A3E300DEE627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BE6AE01EA6A2F400DEE627 /* TPSCamDemo */;
+			targetProxy = F0BE6B3A1EA6A3E300DEE627 /* PBXContainerItemProxy */;
+		};
+		F0BE6B421EA6A3E700DEE627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0BE6B2D1EA6A3DC00DEE627 /* TPSCam */;
+			targetProxy = F0BE6B411EA6A3E700DEE627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0BE6AE81EA6A2F400DEE627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BE6AE91EA6A2F400DEE627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0BE6AED1EA6A2F400DEE627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0BE6AEE1EA6A2F400DEE627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0BE6B071EA6A2F400DEE627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0BE6B081EA6A2F400DEE627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0BE6B0A1EA6A2F400DEE627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = "$(SRCROOT)/TPSCamDemo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F0BE6B0B1EA6A2F400DEE627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = "$(SRCROOT)/TPSCamDemo/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F0BE6B0D1EA6A2F400DEE627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = TPSCamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPSCamDemo.app/TPSCamDemo";
+			};
+			name = Debug;
+		};
+		F0BE6B0E1EA6A2F400DEE627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = TPSCamDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPSCamDemo.app/TPSCamDemo";
+			};
+			name = Release;
+		};
+		F0BE6B101EA6A2F400DEE627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = TPSCamDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TPSCamDemo;
+			};
+			name = Debug;
+		};
+		F0BE6B111EA6A2F400DEE627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = TPSCamDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TPSCamDemo;
+			};
+			name = Release;
+		};
+		F0BE6B461EA6A3E700DEE627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TPSCam/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0BE6B471EA6A3E700DEE627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TPSCam/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0BE6B4A1EA6A3E700DEE627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = TPSCamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPSCamDemo.app/TPSCamDemo";
+			};
+			name = Debug;
+		};
+		F0BE6B4B1EA6A3E700DEE627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U82TG7992X;
+				INFOPLIST_FILE = TPSCamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPSCamDemo.app/TPSCamDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0BE6ADC1EA6A2F400DEE627 /* Build configuration list for PBXProject "TPSCamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BE6B071EA6A2F400DEE627 /* Debug */,
+				F0BE6B081EA6A2F400DEE627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0BE6B091EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BE6B0A1EA6A2F400DEE627 /* Debug */,
+				F0BE6B0B1EA6A2F400DEE627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BE6B0C1EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BE6B0D1EA6A2F400DEE627 /* Debug */,
+				F0BE6B0E1EA6A2F400DEE627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BE6B0F1EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BE6B101EA6A2F400DEE627 /* Debug */,
+				F0BE6B111EA6A2F400DEE627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BE6B451EA6A3E700DEE627 /* Build configuration list for PBXNativeTarget "TPSCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BE6B461EA6A3E700DEE627 /* Debug */,
+				F0BE6B471EA6A3E700DEE627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0BE6B491EA6A3E700DEE627 /* Build configuration list for PBXNativeTarget "TPSCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0BE6B4A1EA6A3E700DEE627 /* Debug */,
+				F0BE6B4B1EA6A3E700DEE627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0BE6AD91EA6A2F400DEE627 /* Project object */;
+}
