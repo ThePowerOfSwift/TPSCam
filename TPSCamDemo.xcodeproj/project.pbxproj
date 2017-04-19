@@ -719,7 +719,7 @@
 				DEVELOPMENT_TEAM = U82TG7992X;
 				INFOPLIST_FILE = "$(SRCROOT)/TPSCamDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepowerofswift.TSPCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -735,7 +735,7 @@
 				DEVELOPMENT_TEAM = U82TG7992X;
 				INFOPLIST_FILE = "$(SRCROOT)/TPSCamDemo/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCamDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepowerofswift.TSPCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -814,7 +814,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepowerofswift.TSPCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -839,7 +839,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.apple.TPSCam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thepowerofswift.TSPCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -897,6 +897,7 @@
 				F0BE6B0B1EA6A2F400DEE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0BE6B0C1EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -905,6 +906,7 @@
 				F0BE6B0E1EA6A2F400DEE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0BE6B0F1EA6A2F400DEE627 /* Build configuration list for PBXNativeTarget "TPSCamDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -913,6 +915,7 @@
 				F0BE6B111EA6A2F400DEE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0BE6B451EA6A3E700DEE627 /* Build configuration list for PBXNativeTarget "TPSCam" */ = {
 			isa = XCConfigurationList;
@@ -921,6 +924,7 @@
 				F0BE6B471EA6A3E700DEE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0BE6B491EA6A3E700DEE627 /* Build configuration list for PBXNativeTarget "TPSCamTests" */ = {
 			isa = XCConfigurationList;
@@ -929,6 +933,7 @@
 				F0BE6B4B1EA6A3E700DEE627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

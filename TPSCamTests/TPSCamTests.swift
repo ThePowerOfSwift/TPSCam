@@ -2,7 +2,7 @@
 //  TPSCamTests.swift
 //  TPSCamTests
 //
-//  Created by Keyboarder Co. on 4/18/17.
+//  Created by The Power of Swift. on 4/18/17.
 //  Copyright © 2017 The Power of Swift. All rights reserved.
 //
 
